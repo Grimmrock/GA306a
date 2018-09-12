@@ -1,0 +1,7 @@
+this code allows you to take any objects within your scene, apply a singular texture to them, group them, center and drop the pivot and move the pivot to the center of the origin.
+
+this code is intended to be used with a Zbrush import with multiple parts in order to more readily prepare a model for retopology and UV unwrapping.
+
+as I do not have a model file with a reasonable size available at this time for transfer, I reccomend making 3 cubes, positioning them through the worldsapce and applying a unique material to each one.
+
+once you run the code, it will apply a new texture to all the items, remove the old textures, and center them relative to the bounding box they are contained within
